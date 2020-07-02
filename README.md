@@ -1,2 +1,2 @@
 # NoteBook
-This is my study note
+## This is NoteBook
