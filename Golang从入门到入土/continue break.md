@@ -80,3 +80,16 @@ func main() {
     }
 }
 ```
+
+## 对for进行打标签 通过break和continue可以实现多层循环的跳出和终止
+```go
+f1:
+	for i := 1; i < 3; i++ {
+		for j := 1; j < 5; j++ {
+			if j == 3 {
+				continue f1
+			}
+		}
+	}
+```
+给最外层循环打上标签f1 里面循环 跳出f1的循环 
