@@ -66,3 +66,39 @@ func main() {
     }
 }
 ```
+
+## 变量和条件形式
+```go
+package main
+
+import (
+    "fmt"
+    "time"
+)
+
+func main() { 
+    for i := 1; i < 6; {  
+        fmt.Println("进行循环")
+        time.Sleep(time.Second * 1) // 延迟1s
+        i += 1
+    }
+}
+```
+区别 变量属于for的代码块 只有for里面可以找到 
+
+```go
+package main
+
+import (
+    "fmt"
+    "time"
+)
+
+func main() { 
+    for i := 1; i < 6; i++{  
+        fmt.Println("进行循环")
+        time.Sleep(time.Second * 1) // 延迟1s
+
+    }
+}
+```
