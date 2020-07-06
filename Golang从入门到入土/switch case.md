@@ -9,12 +9,12 @@ import "fmt"
 
 func main() {
     switch 表达式 {
-        case 结果1:
-            fmt.Println("结果1")
-        case 结果2:
-            fmt.Println("结果2")
-        default:
-            fmt.Println("都不满足")
+    case 结果1:
+        fmt.Println("结果1")
+    case 结果2:
+        fmt.Println("结果2")
+    default:
+        fmt.Println("都不满足")
     }
 }
 ```
@@ -30,12 +30,12 @@ func main() {
     fmt.Println("输入年龄:")
     fmt.Scanln(&age)
     switch age {
-        case 15:
-            fmt.Println("15")
-        case 18:
-            fmt.Println("18")
-        default:
-            fmt.Println("都不满足")
+    case 15:
+        fmt.Println("15")
+    case 18:
+        fmt.Println("18")
+    default:
+        fmt.Println("都不满足")
     }
 }
 ```
