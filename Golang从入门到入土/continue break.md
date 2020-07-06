@@ -39,7 +39,7 @@ func main() {
 	for j := 1; j <= i; j++ {
 	    fmt.Printf("%d * %d = %d  ", j, i, i*j)
 	}
-	    fmt.Println("")
+	fmt.Println("")
     }
 }
 ```
