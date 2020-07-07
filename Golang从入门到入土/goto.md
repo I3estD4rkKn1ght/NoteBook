@@ -24,4 +24,4 @@ SVIP:
 	fmt.Println("进入")
 }
 ```
-定义位置 再goto跳到位置
+定义位置，再goto跳到位置。
